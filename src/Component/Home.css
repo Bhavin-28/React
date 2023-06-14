@@ -1,0 +1,85 @@
+.backImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.slider-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+   
+  .background-image-container {
+    position: relative;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    /* backdrop-filter: blur(2px); */
+    width: 44%;
+    height: 30%;
+}
+
+
+/* Like Button */
+.image-container {
+    position: relative;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  .image1 {
+    position: relative;
+  }
+  
+  .like-container {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+  }
+  .like-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .like-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .like-count {
+    margin-left: 8px;
+    color: #248b9d;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
